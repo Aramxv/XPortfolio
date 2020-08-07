@@ -394,6 +394,7 @@ h6 { font-size: 16px; }
     display: grid;
     padding-top: 50px;
     padding-bottom: 50px;
+    gap: 100px;
     /* 
         Auto fit as many columns in the row 
         and, repeat it, but the columns should never be smaller than 
@@ -410,6 +411,86 @@ h6 { font-size: 16px; }
     background-color: var(--previewShadowBG);
 }
 
+.social-wrapper{
+    display: flex;
+    text-align: center;
+    align-content: center;
+}
+  
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: #d46b8b;
+    color: white;
+}
+
+.fa-github {
+    background: #353738;
+    color: white;
+}
+
+.project-wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 380px);
+    gap: 20px;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.project{
+    border:1px solid var(--borderColor);
+
+    -webkit-box-shadow: 7px 3px 14px 0px rgba(0,0,0,0.81);
+    -moz-box-shadow: 7px 3px 14px 0px rgba(0,0,0,0.81);
+    box-shadow: 7px 3px 14px 0px rgba(0,0,0,0.81);
+}
+
+.thumbnail{
+    display: block;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.project-preview{
+    background-color: #FFF;
+    padding: 15px;
+}
+
+.project-title{
+    color: black;
+    margin: 0;
+}
+
+.project-intro{
+    color: #4B5156;
+    font-size: 16px;
+}
+
+
 @media screen and (max-width: 1200px){
     .main-container{
         width: 95%;
@@ -425,6 +506,38 @@ h6 { font-size: 16px; }
             'left-column'
             'right-column'
         ;
+    }
+
+    .right-column{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .introduction-wrapper{
+        grid-template-columns: 1fr;
+        grid-template-rows: 3em 30em;
+        grid-template-areas: 
+            'nav-wrapper'
+            'left-column'
+            'right-column'
+        ;
+    }
+
+    #preview-shadow{
+        background-color: var(--previewShadowBG);
+        width: 250px;
+        height: 100px;
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+    
+    #preview{
+        width: 220px;
+        border: 1.5px solid #17A2B8;
+        background-color: var(--previewBG);
+        padding: 15px;
+        position: relative;
     }
 
     .right-column{
