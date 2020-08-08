@@ -1,0 +1,25 @@
+/*  
+    -------------------------------------------------------
+    |PURPLE THEME STYLE VARIABLE DOCUMENT                   |
+    -------------------------------------------------------                  
+    | IF THIS THEME IS SELECTED --OVERWRITE THE VARIABLES |
+    | FROM THE DEFAULT CSS MASTER FILE                    |
+    -------------------------------------------------------
+*/
+
+:root{
+    --mainColor:#46344E;
+    --secondaryColor:#382A3F;
+
+    --borderColor:#1D1520;
+
+    --mainText:#ffffff;
+    --secondaryText: #EEEEEE;
+
+    --themeDotBorder: #ffffff;
+
+    --previewBG: rgba(29, 21, 32, 0.8);
+    --previewShadowBG: #2B202F;
+
+    --buttonColor: #8534A3;
+}

@@ -151,11 +151,17 @@ input, select {
 
     --previewBG: rgb(251,249,243,0.8);
     --previewShadowBG: #F0EAD6;
+
+    --buttonColor: rgb(0, 0, 0);
 }
 
 html, body{
     padding: 0;
     margin: 0;
+}
+
+body *{
+    transition: 0.3s; /* Transition delay for changing color theme */
 }
 
 h1, h2, h3, h4, h5, h6, strong{
@@ -247,6 +253,10 @@ h6 { font-size: 16px; }
     display: inline-block;
     margin-right: 5px;
     margin-left: 5px;
+}
+
+#navigation a{
+    color: var(--mainText);
 }
 
 .dots-wrapper{
@@ -453,15 +463,16 @@ h6 { font-size: 16px; }
 
 .project-wrapper{
     display: grid;
-    grid-template-columns: repeat(auto-fit, 380px);
+    grid-template-columns: repeat(auto-fit, 350px);
     gap: 20px;
     justify-content: center;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 
 .project{
     border:1px solid var(--borderColor);
+    
 
     -webkit-box-shadow: 7px 3px 14px 0px rgba(0,0,0,0.81);
     -moz-box-shadow: 7px 3px 14px 0px rgba(0,0,0,0.81);
@@ -487,7 +498,54 @@ h6 { font-size: 16px; }
 
 .project-intro{
     color: #4B5156;
-    font-size: 16px;
+    font-size: 12px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.read-more{
+    font-size: 14px;
+}
+
+#contact-form{
+    display: block;
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid var(--borderColor);
+    padding: 15px;
+    border-radius: 5px;
+    background-color: var(--mainColor);
+    margin-bottom: 50px;
+}
+
+#contact-form label{
+    line-height: 2.7em;
+}
+
+#contact-form textarea{
+    min-height: 100px;
+    font-size: 14px;
+}
+
+
+.input-field{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: var(--secondaryColor);
+    border-radius: 5px;
+    border: 1px solid var(--borderColor);
+    font-size: 14px;
+}
+
+#submit-button{
+    width: 100%;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #FFF;
+    background-color: var(--buttonColor);
+    border: none;
 }
 
 

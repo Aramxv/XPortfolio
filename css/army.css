@@ -1,0 +1,25 @@
+/*  
+    -------------------------------------------------------
+    |ARMY GREEN THEME STYLE VARIABLE DOCUMENT                   |
+    -------------------------------------------------------                  
+    | IF THIS THEME IS SELECTED --OVERWRITE THE VARIABLES |
+    | FROM THE DEFAULT CSS MASTER FILE                    |
+    -------------------------------------------------------
+*/
+
+:root{
+    --mainColor:#606B56;
+    --secondaryColor:#515A48;
+
+    --borderColor:#161914;
+
+    --mainText:#ffffff;
+    --secondaryText: #EEEEEE;
+
+    --themeDotBorder: #ffffff;
+
+    --previewBG: rgba(81, 90, 72, 0.8);
+    --previewShadowBG: #2A2F25;
+
+    --buttonColor: #669966;
+}
