@@ -49,11 +49,11 @@
             <div class="social-wrapper">
                 <div class="social">
                     <h4 style="padding-bottom: 20px;">Social Media Links</h4>
-                    <a href="#" target="_blank" class="fa fa-facebook"></a>
-                    <a href="#" target="_blank" class="fa fa-google"></a>
-                    <a href="#" target="_blank" class="fa fa-linkedin"></a>
-                    <a href="#" target="_blank" class="fa fa-instagram"></a>
-                    <a href="#" target="_blank" class="fa fa-github"></a>
+                    <a href="https://www.facebook.com/redonaarjie" target="_blank" class="fa fa-facebook"></a>
+                    <a href="https://dribbble.com/redonaarjie" target="_blank" class="fa fa-dribbble"></a>
+                    <a href="https://www.linkedin.com/in/arjie-redo%C3%B1a-6869471a9/" target="_blank" class="fa fa-linkedin"></a>
+                    <a href="https://www.instagram.com/arrrrjieig/" target="_blank" class="fa fa-instagram"></a>
+                    <a href="https://github.com/Aramxv" target="_blank" class="fa fa-github"></a>
                     <p style="padding-top: 25px;">Connect with me!</p>
                 </div>
             </div>
