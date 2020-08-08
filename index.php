@@ -158,7 +158,7 @@
                         <div class="project-preview">
                             <h6 class="project-title">Boebot Campus Directory</h6>
                             <p class="project-intro">This is where you describe the projects desctiption.</p>
-                            <a class="read-more" href="boebot.html" target="_blank">Read more</a>
+                            <a class="read-more" href="boebot.php" target="_blank">Read more</a>
                         </div>
                     </div>
                     <div class="project">
