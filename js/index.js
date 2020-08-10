@@ -3,6 +3,26 @@
    ---------------------------
 */
 
+// JQUERY SCRIPT
+
+$(document).ready(function(){
+    
+    // SOME OF MY PROJECTS
+    $('.main-section .owl-carousel').owlCarousel({
+        loop:false,
+        margin:10,
+        nav:false,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            }
+        }
+    })
+});
+
 /*  
     ---------------------------------------------------------------------- 
     | SAVE THE THEME VALUE IN LOCAL STORAGE                              |
@@ -56,3 +76,4 @@ function setTheme(mode){
     }
     localStorage.setItem('theme', mode)
 }
+
