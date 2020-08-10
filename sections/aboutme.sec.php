@@ -5,10 +5,11 @@
             <div class="about-me">
                 <h4 style="padding-bottom: 10px;">More about me</h4>
                 <p>
-                    My money's in that office, right? If she start giving me some bullshit about it ain't there, and we got to go someplace else and get it, I'm gonna shoot you in the head then and there. Then I'm gonna shoot that bitch in the kneecaps, find out where my goddamn money is.
+                    Highly motivated BS Computer Engineering graduate with a good foundation in software engineering and some programming principles. A team player, plus willing to learn new stack technologies and acquire new skill.
+
                 </p><br>
                 <p>
-                    and that nigga Winston or anybody else is in there, you the first motherfucker to get shot. You understand?
+                    I love to play computer games such as DOTA 2, Valorant, basketball, watch movies, and play guitar. 
                 </p>
                 <hr>
                 <h4 style="padding-bottom: 10px;">Top Expertise</h4>

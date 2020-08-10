@@ -22,7 +22,7 @@
             <!-- Left Column-->
             <div class="left-column">
                 <img id="profile" src="assets/img/Me.jpeg" alt="Profile">
-                <h5 style="text-align: center; line-height: 3;">Personalize Theme</h5>
+                <h5 style="text-align: center; line-height: 3;">Personalize Me!</h5>
                 <!-- Theme Options Picker-->
                 <div id="theme-options-wrapper">
                     <div data-mode="light" id="light-theme" class="dot-theme"></div>
@@ -45,7 +45,7 @@
                         <div id="corner-tl" class="corner"></div>
                         <div id="corner-tr" class="corner"></div>
                         <h3>What I do?</h3>
-                        <p>I don't know exactly when we turned on each other, but I know that seven of us survived the slide...</p>
+                        <p>PHP + Laravel Framework, LAMP Stack is my thing. But I also want to learn new stack technologies. MERN Stack and C#.Net framerwork is next! </p>
                         <div id="corner-br" class="corner"></div>
                         <div id="corner-bl" class="corner"></div>
                     </div>
