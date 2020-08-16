@@ -1,3 +1,9 @@
+<!-- Notice Board Alert-->
+<div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  <p><strong>Notice me Senpai!</strong> The page is under renovation, some buttons might not work right now. Please bear with me.</p>
+</div>
+<!-- //!Notice Board Alert-->
 <!-- Main Section-->
 <section class="main-section">
     <div class="main-container">

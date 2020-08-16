@@ -192,6 +192,32 @@ h4 { font-size: 24px; }
 h5 { font-size: 20px; }
 h6 { font-size: 16px; }
 
+.alert {
+    margin:0px;
+    padding: 15px;
+    background-color: #313138;
+    color: white;
+}
+
+.alert strong{
+    color: #EA4C89;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 15px;
+    float: right;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: #EA4C89;
+}
+
 .main-section{
     background-color: var(--mainColor);
     border-bottom: 1px solid var(--borderColor);
