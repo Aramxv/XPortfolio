@@ -16,7 +16,7 @@
         </div>
         <!-- //!Three dots Navigation-->
         <ul id="navigation">
-            <li><a href="#">Github</a></li>
+            <li><a href="https://github.com/webtraining-rtu/directory-webapp">Github</a></li>
         </ul>
     </div>
 
@@ -85,12 +85,15 @@
         </div>
 
         <div class="project-overview">
-            <h3>Our thesis project way back college,</h3>
-            <p>This project is dedicated to Rizal Technological University Boni Campus, 
-                An interactive Campus Director System, where it can help the queries of 
-                the students and also to ease their life inside the campus.
+            <h2>Our thesis project way back college,</h2>
+            <p>This project is dedicated to Rizal Technological University Boni Campus, An interactive Campus Directory System, where it can help the queries of the students and also to ease their life inside the campus.
             </p>
-            <h3></h3>
+            
+            <h2>Very first project in Web Development</h2>
+            <p>The University wants to have a more convenient technology to help students especially the guest, together with the Boe-bot they can now reach high-quality technology and friendly-user for better information to all. Boe-bot can locate rooms and offices with their easy way and basic information for the new administration and some trivia for the fifty-one years of existing, still successful journey of the Rizal Technological University.</p>
+            
+            <h2>It was a collaboration with RTU,</h2>
+            <p>with the help of the adviser and department head the project was proposed in the year 2019 and started after presented in the colloquium. There's some adjustment for the project and recommendation to build it perfectly lots of time to make the proposed project be successful and presented actually.</p>
         </div>
     </div>
 

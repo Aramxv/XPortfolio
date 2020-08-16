@@ -44,8 +44,8 @@
                     <div id="preview">
                         <div id="corner-tl" class="corner"></div>
                         <div id="corner-tr" class="corner"></div>
-                        <h3>What I do?</h3>
-                        <p>PHP + Laravel Framework, LAMP Stack is my thing. But I also want to learn new stack technologies. MERN Stack and C#.Net framerwork is next! </p>
+                        <h3>Hello!</h3>
+                        <p id="prev-content">I enjoy learning new stack tech and writing about new projects.</p>
                         <div id="corner-br" class="corner"></div>
                         <div id="corner-bl" class="corner"></div>
                     </div>

@@ -11,6 +11,10 @@
     ?>
 
     <?php 
+        include_once 'sections/skills.sec.php';
+    ?>
+
+    <?php 
         include_once 'sections/projects.sec.php';
     ?>
 
