@@ -11,6 +11,10 @@
     ?>
 
     <?php 
+        include_once 'sections/social-media.sec.php';
+    ?>
+
+    <?php 
         include_once 'sections/skills.sec.php';
     ?>
 

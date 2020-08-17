@@ -146,6 +146,7 @@ input, select {
 
     --mainText:#000000;
     --secondaryText: #9c9c9c;
+    --ExpertiseText: #FFF;
 
     --themeDotBorder: #000000;
 
@@ -153,6 +154,20 @@ input, select {
     --previewShadowBG: #888E98;
 
     --buttonColor: rgb(0, 0, 0);
+}
+
+/* 
+    Overriding the CSS Default Text Selection
+*/
+
+::-moz-selection { /* Code for Firefox */
+    color: rgb(255, 255, 255);
+    background: rgb(73, 73, 73);
+}
+  
+  ::selection {
+    color: rgb(255, 255, 255);
+    background: rgb(73, 73, 73);;
 }
 
 html, body{
@@ -440,6 +455,33 @@ h6 { font-size: 16px; }
     text-align: center;
 }
 
+.social-media-container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#42424A;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    border: none;
+}
+
+.social-media-container div img{
+    width: 50px;
+    margin: 10px;
+    border: none;
+}
+
+.check-me{
+    background-color: #42424A;
+    border: none;
+}
+
+.check-me p{
+    text-align: center;
+    color: var(--secondaryText);
+    padding-bottom: 30px;
+}
+
 .main-skill{
     background-color:#313138;
     justify-content: center;
@@ -447,8 +489,9 @@ h6 { font-size: 16px; }
 
 .main-skill h4{
     text-align: center;
-    color: var(--mainText);
-    padding: 10px;
+    color: var(--ExpertiseText);
+    padding-top: 30px;
+    border: none;
 }
 
 .skills-container1{
@@ -458,14 +501,17 @@ h6 { font-size: 16px; }
     justify-content: center;
     padding-top: 50px;
     padding-bottom: 10px;
+    border: none;
 }
 
 .skills-container1 h3{
     text-align: center;
+    border: none;
 }
 
 .skills-container1 div img{
     width: 125px;
+    margin: 10px;
 }
 
 .skills-container2{
@@ -474,50 +520,12 @@ h6 { font-size: 16px; }
     background-color:#313138;
     justify-content: center;
     padding-bottom: 50px;
+    border: none;
 }
 
 .skills-container2 div img{
     width: 125px;
-}
-
-.social-wrapper{
-    display: flex;
-    text-align: center;
-    align-content: center;
-}
-  
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 75px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-}
-
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-}
-
-.fa-dribbble {
-    background: #EA4C89;
-    color: white;
-}
-
-.fa-linkedin {
-    background: #007bb5;
-    color: white;
-}
-
-.fa-instagram {
-    background: #d46b8b;
-    color: white;
-}
-
-.fa-github {
-    background: #353738;
-    color: white;
+    margin: 10px;
 }
 
 .main-section .owl-carousel .project{

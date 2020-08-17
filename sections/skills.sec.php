@@ -1,3 +1,4 @@
+<!-- Skills Section-->
 <div class="main-skill"><h4>Top Expertise</h4></div>
 <div class="skills-container1">
     <div><img src="assets/lang/icons8-html-5-240.png" alt="HTML5"></div>
@@ -15,3 +16,4 @@
     <div><img src="assets/lang/icons8-laravel-96.png" alt="Bootstrap"></div>
     <div><img src="assets/lang/nextpng.png" alt="SASS"></div>
 </div>
+<!-- //!Skills Section-->

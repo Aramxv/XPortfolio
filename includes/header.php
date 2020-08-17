@@ -24,5 +24,7 @@
     <link id="theme-style" rel="stylesheet" href="">
 
     <title>Portfolio-Arjie Redoña</title>
+
+    <link rel="icon" href="assets/logo/arjie-logo.ico" type="image/icon type">
 </head>
 <body>
