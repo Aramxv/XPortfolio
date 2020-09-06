@@ -4,8 +4,8 @@
     <div class="main-container">
         <h1 style="text-align:center; padding-top:50px;">Projects</h1>
         <hr>
-        <div class="container">
-            <a href="sections/postboebot.sec.php">
+        <div class="project-container">
+            <a href="boebot.php">
             <img class="project" src="assets/projects/Boebot.png" alt="First Project" style="width:100%;">
             </a>
             <div class="content">
@@ -18,7 +18,7 @@
 <div class="main-section">
     <div class="main-container">
         <hr>
-        <div class="container">
+        <div class="project-container">
             <a href="#">
             <img class="project" src="assets/projects/POS.png" alt="Second Project" style="width:100%;">
             </a>
@@ -32,7 +32,7 @@
 <div class="main-section">
     <div class="main-container">
         <hr>
-        <div class="container">
+        <div class="project-container">
             <a href="#">
             <img class="project" src="assets/projects/market.png" alt="Third Project" style="width:100%;">
             </a>
@@ -41,11 +41,7 @@
             <p>Personal project named Fur Food Marketeer. An E-commerce site basically for Pet Shops and Online Pet Food and Pet Accessories Sellers, with key features of such as Login/Registration, Add to Cart/Wishlist/Save for Later, and Checkout. This project is working in progress, hoping to finish this.</p>
         </div>
     </div>
-    <hr>
 </div>
-
-
-
 
 
 <!-- //!Project Section-->

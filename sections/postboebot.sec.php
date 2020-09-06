@@ -1,7 +1,8 @@
 <div class="center-container">
     <!-- Page Heading-->
     <div class="heading-wrapper">
-    <h1>Boebot Campus Directory</h1>
+        <h1>Boebot Campus Directory</h1>
+    </div>
 </div>
 <!-- //!Page Heading-->
 
@@ -53,7 +54,9 @@
             <img src="assets/projects/boebotsrc/bbimg6.png" style="width:100%; height:480px">
         </div>
 
-        <!-- Next and previous buttons -->
+        
+
+        <!-- Next and Previous Button-->
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
@@ -85,58 +88,46 @@
         </div>
 
         <div class="project-overview">
-            <h2>Our thesis project way back college,</h2>
-            <p>This project is dedicated to Rizal Technological University Boni Campus, An interactive Campus Directory System, where it can help the queries of the students and also to ease their life inside the campus.
+            <h1>First project in web development</h1>
+            <h6>A capstone project in college, a team of 5, distributed tasks, finished project on time.</h6>
+            <p><br>It was a collaboration with Rizal Technological University, with the help of the
+                adviser and department head the project was proposed in the year 2019 and started
+                after presented in the colloquium. There are so many adjustment in this project and 
+                recommendation to build it perfectly and suitable to the needs of the University<span id="dots">...</span>
+
+                <span id="more">
+                <br><br>Lots of time to make the proposed project be successful and presented. 
+
+                The University wants to have a more convinient technology to help students especially the
+                guest, together with the Boebot they can now reach high-quality technology and user-friendy
+                for better information to all.
+
+                <br><br><strong>Scope of the project</strong>
+                <br><br>Boebot Campus Directory can locate rooms and offices providing the easiest way to get
+                you to your queried destination. Basic information for the new administration and some trivias 
+                of the fifty-one years of existing, still successful journey of the Rizal Technological University.  
+
+                <br><br><strong>Features of the system</strong>
+
+                <br><br>The concept of this campus directory system is the same of the directory system in malls. Especially 
+                the one in SM Megamall. The robot, that's were we get the idea of this project. But a bit budget typed one.
+                <br><br>Taking queries of the user, giving them the nearest direction to there destination. That is the 
+                major feauture of the project, Organizations Timeline and professor locator is just an added features.
+                Wherein different organizations in campus can post their events in the system, with the help of an 'administrator'
+                the one who is responsible in the system. 
+
+                <br><br><strong>Administrator mode</strong> 
+
+                <br><br>The 'administrator[s]' have the full restriction in the system, they can change the images that the user[s]
+                can see in the home page, they can add, update, delete some informations of the professors, and insert events in 
+                organization timeline. They can do this by logging in as administrator in the system. 
+                
+                <br><br>Fun experience, We learned some basic concepts and CRUD in web development in this project. By the way, this is built using 
+                PHP, JQuery, Bootstrap Framework, JavaScript, AJAX, MySQLi, Git.  
+                </span>
             </p>
-            
-            <h2>Very first project in Web Development</h2>
-            <p>The University wants to have a more convenient technology to help students especially the guest, together with the Boe-bot they can now reach high-quality technology and friendly-user for better information to all. Boe-bot can locate rooms and offices with their easy way and basic information for the new administration and some trivia for the fifty-one years of existing, still successful journey of the Rizal Technological University.</p>
-            
-            <h2>It was a collaboration with RTU,</h2>
-            <p>with the help of the adviser and department head the project was proposed in the year 2019 and started after presented in the colloquium. There's some adjustment for the project and recommendation to build it perfectly lots of time to make the proposed project be successful and presented actually.</p>
+
+            <button onclick="moreFunction()" id="readmore-btn">read more</button>
         </div>
     </div>
-
-    
 </div>
-
-<script>
-/* 
-   ---------------------------------------------------------
-   | BOEBOT PAGE SLIDING IMAGES AS OVERVIEW OF THE PROJECT |
-   ---------------------------------------------------------
-*/
-
-var slideIndex = 1;
-showSlides(slideIndex);
-
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  var captionText = document.getElementById("caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  console.log('hello');
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
-}
-</script>
-
