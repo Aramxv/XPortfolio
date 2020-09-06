@@ -1,9 +1,11 @@
+
+
 <!-- Contact Me Section-->
 <section id="contactMe" class="sub-section">
     <div class="main-container">
         <h3 style="text-align: center; padding: 50px">Get in Touch</h3>
 
-        <form id="contact-form">
+        <form id="contact-form" action="../action/contact.act.php" method="POST">
             <label>Name</label>
             <input type="text" class="input-field" name="name">
 

@@ -1,61 +1,51 @@
-<!-- Projects Section-->
-<section class="main-section">
+<!-- Project Section-->
+
+<div class="main-section">
     <div class="main-container">
-        <h3 style="text-align: center; padding-top: 25px">Some of my projects...</h3>
-        <div class="owl-carousel owl-theme">
-
-            <!-- Boebot Campus Directory Project-->
-            <div class="project">
-                <img class="thumbnail" src="assets/projects/Boebot-Directory.png" alt="Boebot">
-                <div class="project-preview">
-                    <h6 class="project-title">Boebot Campus Directory</h6>
-                    <p class="project-intro">Dedicated to Rizal Technological University Boni Campus, An interactive Campus Directory System, Where it will help the queries of the students to ease their life inside the campus. Dynamic Website App.</p>
-                        <img id="bunifu"  src="assets/lang/php.png" alt="Bunifu">
-                        <img id="bunifu"  src="assets/lang/html5.png" alt="HTML5">
-                        <img id="bunifu"  src="assets/lang/css3.png" alt="CSS3">
-                        <img id="bunifu"  src="assets/lang/boots.png" alt="Bootstrap">
-                        <img id="bunifu"  src="assets/lang/javascript.png" alt="JavaScript">
-                        <img id="bunifu"  src="assets/lang/mysqli.png" alt="MySQLi">
-                    <div class="read-more">
-                        <a class="read-more" href="boebot.php" target="_blank">Read more</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- AHK Enterprises Point of Sales and Inventory System Project-->
-            <div class="project">
-                <img class="thumbnail" src="assets/projects/AHK-POSIM.png" alt="AHK-POSIM">
-                <div class="project-preview">
-                    <h6 class="project-title">AHK Point of Sales and Inventory System</h6>
-                    <p class="project-intro">A Point of Sales and Inventory Management System dedicated to AHK Enterprises client in our thesis in Software Engineering. We have also provided a website for their marketing, to easily reach out some customers.</p>
-                        <img id="bunifu"  src="assets/lang/c-sharp.png" alt="C#">
-                        <img id="bunifu"  src="assets/lang/bunifu-fw.jpg" alt="Bunifu">
-                        <img id="bunifu"  src="assets/lang//sql-server.png" alt="Sql">
-                    <div class="read-more">
-                        <a class="read-more" href="#" target="_blank">Read more</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Fur Food Marketeer E-Commerce Project-->
-            <div class="project">
-                <img class="thumbnail" src="assets/projects/Marketeer.png" alt="Boebot">
-                <div class="project-preview">
-                    <h6 class="project-title">Fur Food Marketeer</h6>
-                    <p class="project-intro">An E-commerce site for Fur Foods, You can buy here your fur friend needs like food, treats, accessories, laces, cages. You can Checkout, Add to Wishlist or Save Later and Add to Cart the products.</p>
-                        <img id="bunifu"  src="assets/lang/php.png" alt="Bunifu">
-                        <img id="bunifu"  src="assets/lang/html5.png" alt="HTML5">
-                        <img id="bunifu"  src="assets/lang/css3.png" alt="CSS3">
-                        <img id="bunifu"  src="assets/lang/boots.png" alt="Bootstrap">
-                        <img id="bunifu"  src="assets/lang/javascript.png" alt="JavaScript">
-                        <img id="bunifu"  src="assets/lang/mysqli.png" alt="MySQLi">
-                    <div class="read-more">
-                        <a class="read-more" href="#" target="_blank">Read more</a>
-                    </div>
-                </div>
-            </div>
-
+        <h1 style="text-align:center; padding-top:50px;">Projects</h1>
+        <hr>
+        <div class="container">
+            <a href="sections/postboebot.sec.php">
+            <img class="project" src="assets/projects/Boebot.png" alt="First Project" style="width:100%;">
+            </a>
+            <div class="content">
+            <h1>Boebot Campus Directory</h1>
+            <p>The system is built for students and guests who will visit the university. Helping to find the right way and serve the community for more information and queries. Built using HTML5, CSS3, PHP, JavaScript, JQuery, Bootstrap 4 Framework, MySQLi.</p>
         </div>
     </div>
-</section>
-<!-- //!Projects Section-->
+</div>
+
+<div class="main-section">
+    <div class="main-container">
+        <hr>
+        <div class="container">
+            <a href="#">
+            <img class="project" src="assets/projects/POS.png" alt="Second Project" style="width:100%;">
+            </a>
+            <div class="content">
+            <h1>AHK Point of Sales System</h1>
+            <p>To our client, AHK Enterprises. A solution for their business needs and to help them ease the monitoring of products inventory, reports, customers and more. It also has an invoicing feature. Built using C#.Net Framework, Bunifu UI, Crystal Report and MSSQLSERVER. 
+        </div>
+    </div>
+</div>
+
+<div class="main-section">
+    <div class="main-container">
+        <hr>
+        <div class="container">
+            <a href="#">
+            <img class="project" src="assets/projects/market.png" alt="Third Project" style="width:100%;">
+            </a>
+            <div class="content">
+            <h1>Fur Food Marketeer</h1>
+            <p>Personal project named Fur Food Marketeer. An E-commerce site basically for Pet Shops and Online Pet Food and Pet Accessories Sellers, with key features of such as Login/Registration, Add to Cart/Wishlist/Save for Later, and Checkout. This project is working in progress, hoping to finish this.</p>
+        </div>
+    </div>
+    <hr>
+</div>
+
+
+
+
+
+<!-- //!Project Section-->
