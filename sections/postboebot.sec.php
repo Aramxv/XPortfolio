@@ -1,4 +1,4 @@
-<div class="projectoverview-section">
+
 <div class="center-container">
     <!-- Page Heading-->
     <div class="heading-wrapper">
@@ -119,10 +119,10 @@
 
                 <br><br><strong>Administrator mode</strong> 
 
-                <br><br>The 'administrator[s]' have the full restriction in the system, they can change the images that the user[s]
+                <br><br>The 'administrator' have the full restriction in the system, they can change the images that the users
                 can see in the home page, they can add, update, delete some informations of the professors, and insert events in 
                 organization timeline. They can do this by logging in as administrator in the system. 
-                /
+                
                 <br><br>Fun experience, We learned some basic concepts and CRUD in web development in this project. By the way, this is built using 
                 PHP, JQuery, Bootstrap Framework, JavaScript, AJAX, MySQLi, Git.  
                 </span>
@@ -131,5 +131,4 @@
             <button onclick="moreFunction()" id="readmore-btn">read more</button>
         </div>
     </div>
-</div>
 </div>

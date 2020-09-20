@@ -637,6 +637,10 @@ h6 { font-size: 16px; }
     margin: 0 auto;
 }
 
+.center-container .heading-wrapper h1{
+    color: var(--mainColor);
+}
+
 .overview-wrapper{
     background-color: var(--secondaryColor);
     border: 1px solid var(--borderColor);
@@ -757,10 +761,23 @@ h6 { font-size: 16px; }
 .project-overview h1{
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     padding-bottom: 5px;
+    color: var(--mainColor);
+}
+
+.project-overview h6{
+    color: var(--secondaryColor);
 }
 
 .project-overview p{
-    color: var(--secondaryText);
+    color: var(--secondaryColor);
+}
+
+.project-overview p #more{
+    color: var(--secondaryColor);
+}
+
+.project-overview p #more strong{
+    color: var(--mainColor);
 }
 
 #more{
