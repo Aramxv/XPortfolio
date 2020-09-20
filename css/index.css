@@ -251,6 +251,12 @@ h6 { font-size: 16px; }
     margin: 0 auto;
 }
 
+.projectoverview-section{
+    background-color: var(--mainColor);
+    border-bottom: 1px solid var(--borderColor);
+    overflow: auto;
+}
+
 .heading-wrapper{
     display: grid;
     text-align: center;
@@ -533,11 +539,21 @@ h6 { font-size: 16px; }
    ------------------------
 */
 
+.project-section{
+    background-color: var(--mainColor);
+    overflow: auto;
+    padding-bottom: 20px;
+}
+
 .project-container{
     position: relative;
     max-width: 1080px;
     margin: 0 auto;
     padding-top: 10px;
+}
+
+.project-container .main-container h1{
+    color: var(--mainText);
 }
 
 .project{
@@ -631,7 +647,7 @@ h6 { font-size: 16px; }
     box-shadow: 10px 10px 19px 0px rgba(135,135,135,1);
 
     display: grid;
-    max-width: 1080px;
+    max-width: 970px;
     margin: 0 auto;
     grid-template-columns: 1fr;
     grid-template-rows: 3em 30em;
@@ -741,6 +757,10 @@ h6 { font-size: 16px; }
 .project-overview h1{
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     padding-bottom: 5px;
+}
+
+.project-overview p{
+    color: var(--secondaryText);
 }
 
 #more{
