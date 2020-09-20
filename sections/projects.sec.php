@@ -20,7 +20,7 @@
     <div class="main-container">
         <hr>
         <div class="project-container">
-            <a href="#">
+            <a href="AHKPOS.php">
             <img class="project" src="assets/projects/POS.png" alt="Second Project" style="width:100%;">
             </a>
             <div class="content">
