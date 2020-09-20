@@ -147,6 +147,8 @@ input, select {
     --mainText:#000000;
     --secondaryText: #9c9c9c;
     --ExpertiseText: #FFF;
+    --projectHeadText: #000000;
+    --projectBodytext: #333333;
 
     --themeDotBorder: #000000;
 
@@ -638,7 +640,7 @@ h6 { font-size: 16px; }
 }
 
 .center-container .heading-wrapper h1{
-    color: var(--mainColor);
+    color: var(--projectHeadText);
 }
 
 .overview-wrapper{
@@ -761,23 +763,23 @@ h6 { font-size: 16px; }
 .project-overview h1{
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     padding-bottom: 5px;
-    color: var(--mainColor);
+    color: var(--projectHeadText);
 }
 
 .project-overview h6{
-    color: var(--secondaryColor);
+    color: var(--var(--projectHeadText));
 }
 
 .project-overview p{
-    color: var(--secondaryColor);
+    color: var(--projectBodytext);
 }
 
 .project-overview p #more{
-    color: var(--secondaryColor);
+    color: var(--projectBodytext);
 }
 
 .project-overview p #more strong{
-    color: var(--mainColor);
+    color: var(--projectHeadText);
 }
 
 #more{
